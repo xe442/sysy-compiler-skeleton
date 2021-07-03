@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <variant>
-#include "variable_printer.h"
+#include "variant_printer.h"
 #include "eeyore.h"
 
 namespace compiler_skeleton::tigger
