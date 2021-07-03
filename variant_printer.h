@@ -1,5 +1,5 @@
-#ifndef SKELETON_VARIABLE_PRINTER_H
-#define SKELETON_VARIABLE_PRINTER_H
+#ifndef SKELETON_VARIANT_PRINTER_H
+#define SKELETON_VARIANT_PRINTER_H
 
 #include <iostream>
 #include <variant>

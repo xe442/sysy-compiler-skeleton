@@ -1,5 +1,5 @@
-#ifndef TIGGER_H
-#define TIGGER_H
+#ifndef SKELETON_TIGGER_H
+#define SKELETON_TIGGER_H
 
 #include <iostream>
 #include <string>

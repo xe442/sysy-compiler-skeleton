@@ -1,5 +1,5 @@
-#ifndef BITMAP_H
-#define BITMAP_H
+#ifndef SKELETON_BITMAP_H
+#define SKELETON_BITMAP_H
 
 /*
  * A bitmap implementation based on std::vector<uint32_t>.

@@ -1,5 +1,5 @@
-#ifndef SKELETON_TYPE_H
-#define SKELETON_TYPE_H
+#ifndef SKELETON_SYSY_TYPE_H
+#define SKELETON_SYSY_TYPE_H
 
 /*
  * The recursive tree-style definition of tyes in SysY. Can be used in the
@@ -147,8 +147,6 @@ class ArrType: public TypeBase
 	template<class Iter>
 	ArrType(TypePtr base_type, Iter dim_begin, Iter dim_end)
 	{
-		// TODO
-		// std::holds_alternative<IntType>(*base_type);
 		_len = *dim_begin;
 		++dim_begin;
 		if(dim_begin != dim_end)
