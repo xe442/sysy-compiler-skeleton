@@ -54,6 +54,5 @@
 				return yy::parser::token::EQUAL;
 			}
 [ \n\r]		; /* Skip the white spaces. */
-.			{ yyerror(); }
 
 %%
