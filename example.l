@@ -1,7 +1,7 @@
  /* 
   * This is only an example skeleton of a flex file.
   * Note: line comment does not work properly, and you should use block comment.
-  * Also note: you should add a space (or a tab) before a block comment.
+  * Also note: you should add a space (or a tab) before a block comment to be correctly recognized by flex.
   */
 %{
 	/* Include your header files here. */
@@ -28,7 +28,7 @@
 %{
 	extern int yylineno; /* This is tracked by flex. */
 
-	/* This macro is called when a token is matched to set the location. */
+	/* This macro is called to set the location when a token is matched. */
 	#define YY_USER_ACTION \
 		do\
 		{\
